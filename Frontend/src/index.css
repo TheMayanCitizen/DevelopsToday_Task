@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  
+  h1 {
+    @apply text-3xl font-bold mb-4;
+  }
+  
+  p {
+    @apply mb-4;
+  }
+  
+  ul {
+    @apply list-disc list-inside;
+  }
+  
+  strong {
+    @apply font-bold text-indigo-400;
+  }
+  
+  em {
+    @apply italic text-pink-500;
+  }
+  
